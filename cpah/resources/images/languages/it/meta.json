@@ -1,0 +1,15 @@
+{
+    "name": "Italiano",
+    "daemons": {
+        "datamine_v1": "ESTRAZIONE DATI_V1",
+        "datamine_v2": "ESTRAZIONE DATI_V2",
+        "datamine_v3": "ESTRAZIONE DATI_V3",
+        "icepick": "SPEZZAICE",
+        "mass_vulnerability": "VULNERABILITÀ GENERALE",
+        "turret_shutdown": "SPEGNIMENTO TORRETTA",
+        "friendly_turrets": "TORRETTE ALLEATE",
+        "camera_shutdown": "SPEGNIMENTO TELECAMERA",
+        "weapons_jammer": "JAMMER ARMI",
+        "optics_jammer": "JAMMER OTTICHE"
+    }
+}

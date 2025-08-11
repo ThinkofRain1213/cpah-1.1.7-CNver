@@ -1,0 +1,17 @@
+{
+    "name": "简体中文",
+	"daemons_gap_size": 62.0,
+    "daemons": {
+        "datamine_v1": "数据挖掘_V1",
+        "datamine_v2": "数据挖掘_V2",
+        "datamine_v3": "数据挖掘_V3",
+        "icepick": "冰锥",
+        "mass_vulnerability": "集体薄弱",
+        "camera_shutdown": "摄像头关闭",
+        "friendly_turrets": "友方炮塔",
+        "turret_shutdown": "炮塔关闭",
+        "optics_jammer": "义眼妨碍",
+        "weapons_jammer": "武器妨害",
+		"gain_access": "获取权限"
+    }
+}

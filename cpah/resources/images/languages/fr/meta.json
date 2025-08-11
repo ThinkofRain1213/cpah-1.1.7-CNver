@@ -1,0 +1,15 @@
+{
+    "name": "Français",
+    "daemons": {
+        "datamine_v1": "DATA MINING_V1",
+        "datamine_v2": "DATA MINING_V2",
+        "datamine_v3": "DATA MINING_V3",
+        "icepick": "PIC À GLACE",
+        "mass_vulnerability": "VULNÉRABILITÉ DE MASSE",
+        "turret_shutdown": "ARRÊT DE LA TOURELLE",
+        "friendly_turrets": "TOURELLES ALLIÉES",
+		"camera_shutdown": "ARRÊT DE LA CAMÉRA",
+        "weapons_jammer": "BROUILLEUR D'ARMES",
+		"optics_jammer": "BROUILLEUR D'OPTIQUES"
+    }
+}

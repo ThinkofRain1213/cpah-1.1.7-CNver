@@ -1,0 +1,84 @@
+.shared_windows_runners:
+    tags:
+      - shared-windows
+      - windows
+      - windows-1809
+
+stages:
+  - test
+  - build
+  - docs
+  - release
+
+variables:
+    CPAH_BIN: "cpah.exe"
+    PYTHON_KEYRING_BACKEND: "keyring.backends.null.Keyring"
+
+before_script:
+  - Import-Module "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+  - choco install python --version=3.7.9 --yes
+  - RefreshEnv
+
+test:
+    extends:
+      - .shared_windows_runners
+    stage: test
+    artifacts:
+        when: always
+        reports:
+            junit: report.xml
+    script:
+      - python -m pip install poetry
+      - poetry install --extras "test"
+      - poetry run pytest --black --mypy --junitxml=report.xml cpah tests
+      - poetry run mkdocs build --strict --verbose
+
+build:
+    extends:
+      - .shared_windows_runners
+    stage: build
+    dependencies: []
+    artifacts:
+        paths:
+          - "dist/"
+          - ".version"
+          - ".version_old"
+    script:
+      - python -m pip install poetry
+      - poetry install --extras "build"
+
+        ## Get new version
+      - curl.exe -O https://utils.jshbox.space/scripts/gitlab_vera.py
+      - python gitlab_vera.py version
+
+        ## Freeze with PyInstaller
+      - cp .version VERSION
+      - poetry run pyinstaller cpah.spec
+
+pages:
+    extends:
+      - .shared_windows_runners
+    stage: docs
+    only:
+      - main
+    dependencies: []
+    artifacts:
+        paths:
+          - public
+    script:
+      - python -m pip install poetry
+      - poetry install --extras "docs"
+      - poetry run mkdocs build --strict --verbose
+
+release:
+    extends:
+      - .shared_windows_runners
+    stage: release
+    only:
+      - main
+    dependencies:
+      - build
+    script:
+      - curl.exe -O https://utils.jshbox.space/scripts/gitlab_vera.py
+      - python gitlab_vera.py package "dist/${CPAH_BIN}"
+      - python gitlab_vera.py release

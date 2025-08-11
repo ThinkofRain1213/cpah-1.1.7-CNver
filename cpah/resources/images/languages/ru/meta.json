@@ -1,0 +1,15 @@
+{
+    "name": "Русский",
+    "daemons": {
+        "datamine_v1": "ДОБЫЧА_ДАННЫХ_1",
+        "datamine_v2": "ДОБЫЧА_ДАННЫХ_2",
+        "datamine_v3": "ДОБЫЧА_ДАННЫХ_3",
+        "icepick": "ОТПРАВИТЬ «ЛЕДОКОЛ»",
+        "mass_vulnerability": "ВЫЗВАТЬ МАССОВУЮ УЯЗВИМОСТЬ",
+        "turret_shutdown": "ОТКЛЮЧИТЬ ТУРЕЛЬ",
+        "friendly_turrets": "СДЕЛАТЬ ТУРЕЛИ ДРУЖЕСТВЕННЫМИ",
+		"camera_shutdown": "ОТКЛЮЧИТЬ КАМЕРУ",
+        "weapons_jammer": "БЛОКИРОВАТЬ ОРУЖИЕ",
+		"optics_jammer": "БЛОКИРОВАТЬ ОПТИКУ"
+    }
+}

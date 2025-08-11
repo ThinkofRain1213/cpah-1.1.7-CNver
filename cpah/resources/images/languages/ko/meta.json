@@ -1,0 +1,16 @@
+{
+    "name": "한국어",
+    "daemons_gap_size": 62.0,
+    "daemons": {
+        "datamine_v1": "데이터 마이닝_V1",
+        "datamine_v2": "데이터 마이닝_V2",
+        "datamine_v3": "데이터 마이닝_V3",
+        "icepick": "ICE픽",
+        "mass_vulnerability": "대규모 취약성",
+        "turret_shutdown": "포탑 정지",
+        "friendly_turrets": "우호적인 포탑",
+		"camera_shutdown": "카메라 정지",
+		"weapons_jammer": "무기 재머",
+		"optics_jammer": "안구 재머"
+    }
+}

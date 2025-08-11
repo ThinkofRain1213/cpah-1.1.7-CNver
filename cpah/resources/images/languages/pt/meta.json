@@ -1,0 +1,15 @@
+{
+    "name": "Português",
+    "daemons": {
+        "datamine_v1": "MINERAÇÃO_V1",
+        "datamine_v2": "MINERAÇÃO_V2",
+        "datamine_v3": "MINERAÇÃO_V3",
+        "icepick": "CAICAI",
+        "mass_vulnerability": "VULNERABILIDADE EM MASSA",
+        "turret_shutdown": "DESLIGAMENTO DE TORRETA",
+        "friendly_turrets": "TORRETAS ALIADAS",
+		"camera_shutdown": "DESLIGAMENTO DE CÂMERA",
+        "weapons_jammer": "INTERFERIDOR DE ARMAS",
+		"optics_jammer": "INTERFERIDOR DE ÓPTICA"
+    }
+}

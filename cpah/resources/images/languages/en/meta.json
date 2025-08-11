@@ -1,0 +1,19 @@
+{
+    "name": "English",
+    "daemons": {
+        "datamine_v1": "BASIC DATAMINE",
+        "datamine_v2": "ADVANCED DATAMINE",
+        "datamine_v3": "EXPERT DATAMINE",
+        "icepick": "ICEPICK",
+        "mass_vulnerability": "MASS VULNERABILITY",
+        "camera_shutdown": "CAMERA SHUTDOWN",
+        "friendly_turrets": "FRIENDLY TURRETS",
+        "turret_shutdown": "TURRET SHUTDOWN",
+        "optics_jammer": "OPTICS JAMMER",
+        "weapons_jammer": "WEAPONS JAMMER",
+        "datamine_copy_malware": "DATAMINE: COPY MALWARE",
+        "neutralize_malware": "NEUTRALIZE MALWARE",
+		"gain_access": "GAIN ACCESS",
+		"datamine_crafting_specs": "DATAMINE: CRAFTING SPECS"
+    }
+}

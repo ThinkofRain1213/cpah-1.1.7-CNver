@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "cpah"
+version = "1.1.7"
+description = "Cyberpunk 2077 Autohacker"
+authors = ["Jsh <jsh@jsh.is>"]
+
+[tool.poetry.dependencies]
+python = "~3.7"
+PySide2 = "^5.15.2"
+opencv-python-headless = "^4.4.0"
+PyAutoGUI = "^0.9.52"
+Pillow = "^8.0.1"
+pywin32 = "228"  ## See: https://github.com/mhammond/pywin32/issues/1614
+pydantic = "^1.7.3"
+numpy = "1.19.3"  ## See: https://github.com/numpy/numpy/issues/17726
+Desktopmagic = "^14.3.11"
+pytest = { version = "^6.2.1", optional = true }
+pyinstaller = { version = "^5.13.2", optional = true }
+mkdocs = { version = "^1.1.2", optional = true }
+mkdocs-material = { version = "^6.2.3", optional = true }
+mypy = { version = "^0.790", optional = true }
+black = { version = "^20.8b1", optional = true }
+pytest-mypy = { version = "^0.8.0", optional = true }
+pytest-black = { version = "^0.3.12", optional = true }
+ahk = "^0.12.0"
+setuptools = { version = "^68.0.0", optional = true }
+system-hotkey = { git = "https://github.com/timeyyy/system_hotkey.git", tag = "1.0.3" }
+
+[tool.poetry.extras]
+lint = ["mypy", "black"]
+test = ["pytest", "pytest-mypy", "pytest-black", "mkdocs", "mkdocs-material", "setuptools"]
+build = ["pyinstaller", "setuptools"]
+docs = ["mkdocs", "mkdocs-material", "setuptools"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

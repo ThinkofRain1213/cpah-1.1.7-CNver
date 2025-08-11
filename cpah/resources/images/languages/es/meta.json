@@ -1,0 +1,15 @@
+{
+    "name": "Español",
+    "daemons": {
+        "datamine_v1": "MINERÍA DE DATOS_V1",
+        "datamine_v2": "MINERÍA DE DATOS_V2",
+        "datamine_v3": "MINERÍA DE DATOS_V3",
+        "icepick": "DESHIELO",
+        "mass_vulnerability": "VULNERABILIDAD MASIVA",
+        "turret_shutdown": "APAGADO DE TORRETA",
+        "friendly_turrets": "TORRETAS ALIADAS",
+		"camera_shutdown": "APAGADO DE CÁMARA",
+        "weapons_jammer": "INHIBIDOR DE ARMAS",
+		"optics_jammer": "INHIBIDOR DE ÓPTICAS"
+    }
+}

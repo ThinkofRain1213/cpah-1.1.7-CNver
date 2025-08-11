@@ -1,0 +1,16 @@
+{
+    "name": "العربية",
+	"daemons_gap_size": 63.0,
+    "daemons": {
+        "datamine_v1": "     V1_منجم_بيانات",
+        "datamine_v2": "     V2_منجم_بيانات",
+        "datamine_v3": "     V3_منجم_بيانات",
+        "icepick": "     مخترق النظام الأمني",
+        "mass_vulnerability": "     ثغرات شاملة",
+        "turret_shutdown": "     توقف برج المدفع",
+        "friendly_turrets": "     أبراج مدافع صديقة",
+		"camera_shutdown": "     توقف الكاميرا",
+		"weapons_jammer": "     فعطل الاسلحة",
+		"optics_jammer": "     فشوش البصريات"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Polski",
+    "daemons": {
+        "datamine_v1": "EKSPLORACJA_DANYCH_V1",
+        "datamine_v2": "EKSPLORACJA_DANYCH_V2",
+        "datamine_v3": "EKSPLORACJA_DANYCH_V3",
+        "icepick": "LODOŁAMACZ",
+        "mass_vulnerability": "ZBIOROWE ODSŁONIĘCIE",
+        "turret_shutdown": "WYŁĄCZENIE WIEŻYCZKI",
+        "friendly_turrets": "PRZYJAZNE WIEŻYCZKI",
+		"camera_shutdown": "WYŁĄCZENIE KAMERY",
+        "weapons_jammer": "BLOKER SPUSTU",
+		"optics_jammer": "BLOKER OPTYCZNY"
+    }
+}
