@@ -1,5 +1,5 @@
 # CPAH：赛博朋克 2077 自动黑客工具
-已更新以兼容《赛博朋克 2077》v2.3 版本 /《幻影自由》DLC
+已更新以兼容《赛博朋克 2077》v2.3 版本 /《往日之影》DLC
 
 原项目/作者致谢：https://gitlab.com/jkchen2/cpah
 更新项目：https://gitlab.com/Dreded/cpah
