@@ -4,14 +4,14 @@
 原项目/作者致谢：https://gitlab.com/jkchen2/cpah
 更新项目：https://gitlab.com/Dreded/cpah
 
+### [点击此处查看完整文档](https://dreded.gitlab.io/cpah/)
+
+这是一款帮助简化《赛博朋克 2077》中“破解协议”黑客小游戏的工具。它会截取游戏画面，分析并决定破解所有已选守护程序的最佳顺序，甚至可以自动输入解决方案。
+
 ## 📦 下载最新版本  
 [![Release](https://img.shields.io/github/v/release/ThinkofRain1213/cpah-1.1.7-CNver)](https://github.com/ThinkofRain1213/cpah-1.1.7-CNver/releases/latest)
 
  我几乎不会写代码和使用github，我想要使用这个程序，但是它有问题。在AI的帮助下，我花了两天的时间解决了问题，顺便做了中文本地化翻译，并重绘了应用图标（原来的真的太丑了）。希望能帮助到大家。我什么也不会，如果你们懂得更多，请指导我，谢谢。
-
-### [点击此处查看完整文档](https://dreded.gitlab.io/cpah/)
-
-这是一款帮助简化《赛博朋克 2077》中“破解协议”黑客小游戏的工具。它会截取游戏画面，分析并决定破解所有已选守护程序的最佳顺序，甚至可以自动输入解决方案。
 
 ## 默认快捷键：
 * CTRL + SHIFT + H = 分析破解协议矩阵（如果在选项中启用了自动破解功能，且所有已选守护程序均可破解，则会自动输入解决方案）
