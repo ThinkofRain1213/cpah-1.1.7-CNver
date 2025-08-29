@@ -4,9 +4,8 @@
 原项目/作者致谢：https://gitlab.com/jkchen2/cpah
 更新项目：https://gitlab.com/Dreded/cpah
 
-### [点击此处查看完整文档](https://dreded.gitlab.io/cpah/)
-
 这是一款帮助简化《赛博朋克 2077》中“破解协议”黑客小游戏的工具。它会截取游戏画面，分析并决定破解所有已选守护程序的最佳顺序，甚至可以自动输入解决方案。
+### [点击此处查看完整文档](https://dreded.gitlab.io/cpah/)
 
 ## 📦 下载最新版本  
 [![Release](https://img.shields.io/github/v/release/ThinkofRain1213/cpah-1.1.7-CNver)](https://github.com/ThinkofRain1213/cpah-1.1.7-CNver/releases/latest)
