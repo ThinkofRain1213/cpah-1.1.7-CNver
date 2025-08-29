@@ -7,7 +7,7 @@
 ## 📦 下载最新版本  
 [![Release](https://img.shields.io/github/v/release/ThinkofRain1213/cpah-1.1.7-CNver)](https://github.com/ThinkofRain1213/cpah-1.1.7-CNver/releases/latest)
 
-### 我几乎不会写代码和使用github，我想要使用这个程序，但是它有问题。在AI的帮助下，我花了两天的时间解决了问题，顺便做了中文本地化翻译，并重绘了应用图标（原来的真的太丑了）。希望能帮助到大家。我什么也不会，如果你们懂得更多，请指导我，谢谢。
+ 我几乎不会写代码和使用github，我想要使用这个程序，但是它有问题。在AI的帮助下，我花了两天的时间解决了问题，顺便做了中文本地化翻译，并重绘了应用图标（原来的真的太丑了）。希望能帮助到大家。我什么也不会，如果你们懂得更多，请指导我，谢谢。
 
 ### [点击此处查看完整文档](https://dreded.gitlab.io/cpah/)
 
